@@ -11,3 +11,6 @@ __pycache__/
 .vscode
 
 
+
+Resources/
+pca.csv
