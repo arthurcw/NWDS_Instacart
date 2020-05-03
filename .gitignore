@@ -3,7 +3,11 @@
 
 
 
+
+
 __pycache__/
+
+
 
 
 
@@ -12,5 +16,9 @@ __pycache__/
 
 
 
+
+
 Resources/
+
 pca.csv
+config.py
