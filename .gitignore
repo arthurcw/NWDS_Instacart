@@ -4,7 +4,9 @@
 
 
 
+
 __pycache__/
+
 
 
 
@@ -14,5 +16,8 @@ __pycache__/
 
 
 
-pca.csv
+
+
 Resources/
+config.py
+customer_order_rescale.csv
