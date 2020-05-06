@@ -10,7 +10,8 @@ Instacart operates a grocery delivery and pick-up service in the US and Canada. 
 
 ### 1. Database Setup
 Data were imported into PostgreSQL. Database structure is shown in the diagram below. They are linked by `product_id`, `aisle_id`, `department_id`,and  `order_id`
-![Diagram] (./SQL/Data Diagram.PNG)
+
+![Diagram](./SQL/Database_Diagram.PNG)
 
 - `products`: contains product name and the assigned `aisle` and `department id`
 - `aisles`: contains name of aisle
@@ -22,7 +23,17 @@ Data were imported into PostgreSQL. Database structure is shown in the diagram b
 The dataset has over 49,000 products classified into 134 `aisles` and 21 `departments`. 
 Theere were 206,200 unique user buying more than 33.8 million items in 3.4 million orders.
 
+![Products](./Outputs/EDA_Images/productsPerOrder.png)
 
+![PopProduct](./Outputs/EDA_Images/popularProducts.PNG)
+
+![DeptAisle](./Outputs/EDA_Images/popularDeptAisle.png)
+
+![reOrder](./Outputs/EDA_Images/reorderDept.png)
+
+![When](./Outputs/EDA_Images/freqHeatMap.png)
+
+![Often](./Outputs/EDA_Images/freqBetweenOrders.png)
 
 ### 3. Customer Clustering
 
