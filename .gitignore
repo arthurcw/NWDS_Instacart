@@ -5,7 +5,9 @@
 
 
 
+
 __pycache__/
+
 
 
 
@@ -18,8 +20,13 @@ __pycache__/
 
 
 
+
 Resources/
+
 config.py
+
 customer_order_rescale.csv
+
 customer_order_reduced.csv
+
 customer_order_reduced.zip
