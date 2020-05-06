@@ -23,7 +23,12 @@ Data were imported into PostgreSQL. Database structure is shown in the diagram b
 The dataset has over 49,000 products classified into 134 `aisles` and 21 `departments`. 
 Theere were 206,200 unique user buying more than 33.8 million items in 3.4 million orders.
 
+#### a. Customers usually bought 5 - 8 products per order
+
 ![Products](./Outputs/EDA_Images/productsPerOrder.png)
+
+
+#### b. 1/3 of purchased products are produce
 
 ![DeptAisle](./Outputs/EDA_Images/popularDeptAisle.png)
 
