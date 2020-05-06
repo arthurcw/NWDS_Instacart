@@ -25,9 +25,9 @@ Theere were 206,200 unique user buying more than 33.8 million items in 3.4 milli
 
 ![Products](./Outputs/EDA_Images/productsPerOrder.png)
 
-![PopProduct](./Outputs/EDA_Images/popularProducts.PNG)
-
 ![DeptAisle](./Outputs/EDA_Images/popularDeptAisle.png)
+
+![PopProduct](./Outputs/EDA_Images/popularProducts.PNG)
 
 ![reOrder](./Outputs/EDA_Images/reorderDept.png)
 
