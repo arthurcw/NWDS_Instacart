@@ -32,6 +32,8 @@ Theere were 206,200 unique user buying more than 33.8 million items in 3.4 milli
 
 ![DeptAisle](./Outputs/EDA_Images/popularDeptAisle.png)
 
+#### c. Bananas are everyone's favorite
+
 ![PopProduct](./Outputs/EDA_Images/popularProducts.PNG)
 
 ![reOrder](./Outputs/EDA_Images/reorderDept.png)
