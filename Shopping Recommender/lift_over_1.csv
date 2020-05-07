@@ -1,0 +1,209 @@
+,itemA,itemB,freqAB,supportAB,freqA,supportA,freqB,supportB,confidenceAtoB,confidenceBtoA,lift
+65,"0% Greek, Blueberry on the Bottom Yogurt",Nonfat Strawberry With Fruit On The Bottom Greek Yogurt,305,0.010121709,1391,0.046161632,1666,0.055287764,0.219266715,0.183073229,3.965917604
+5087,Acai Berry Chia Bar,Coconut Chia Bar,462,0.015331901,2882,0.095641857,4648,0.154248214,0.160305344,0.09939759,1.039268716
+4053,Almond Milk Blueberry Yogurt,Almond Milk Peach Yogurt,971,0.03222354,4715,0.156471672,4704,0.156106626,0.205938494,0.206420068,1.319216864
+4808,Almond Milk Blueberry Yogurt,Almond Milk Strawberry Yogurt,1062,0.03524346,4715,0.156471672,5712,0.189558046,0.2252386,0.18592437,1.188230226
+4046,Almond Milk Peach Yogurt,Almond Milk Blueberry Yogurt,1289,0.042776667,4704,0.156106626,4715,0.156471672,0.274022109,0.273382821,1.751256991
+4807,Almond Milk Peach Yogurt,Almond Milk Strawberry Yogurt,1101,0.036537712,4704,0.156106626,5712,0.189558046,0.234056122,0.192752101,1.234746438
+4045,Almond Milk Strawberry Yogurt,Almond Milk Blueberry Yogurt,1640,0.054424929,5712,0.189558046,4715,0.156471672,0.287114846,0.347826087,1.834931799
+4052,Almond Milk Strawberry Yogurt,Almond Milk Peach Yogurt,1376,0.045663843,5712,0.189558046,4704,0.156106626,0.240896359,0.292517007,1.543152678
+2177,Annie Peely Fruit 4.5 Z,Organic Really Peely Bendy Berry Fruit Tape,332,0.01101773,3049,0.101183908,1263,0.041913833,0.10888816,0.262866192,2.597905106
+7568,Apple and Carrot Stage 2 Baby Food,Stage 2 Sweet Potato Corn & Apple Baby Food,409,0.013573046,4116,0.136593298,2808,0.093186098,0.099368319,0.145655271,1.066342732
+4036,Apples + Strawberries Organic Nibbly Fingers,Organic Atage 3 Nibbly Fingers Mangoes Carrots,519,0.017223499,3292,0.10924809,2462,0.081703766,0.157654921,0.210804224,1.929591856
+2155,"Apples, Kale & Avocados Organic Baby Food","Apples, Pumpkin & Carrots Organic Baby Food",399,0.013241187,2735,0.090763525,1629,0.054059884,0.145886654,0.244935543,2.698612051
+2168,"Apples, Kale & Avocados Organic Baby Food","Pears, Kale & Spinach Organic Baby Food",457,0.015165971,2735,0.090763525,2219,0.073639584,0.167093236,0.205948626,2.269068161
+2171,"Apples, Kale & Avocados Organic Baby Food","Apples, Guavas & Beets Organic Baby Food",330,0.010951358,2735,0.090763525,1614,0.053562095,0.120658135,0.204460967,2.252677667
+2173,"Apples, Kale & Avocados Organic Baby Food","Bananas, Raspberries & Oats Organic Baby Food",307,0.010188081,2735,0.090763525,1770,0.0587391,0.112248629,0.173446328,1.910969489
+11,Baby Food Pouch - Roasted Carrot Spinach & Beans,"Baby Food Pouch - Butternut Squash, Carrot & Chickpea",332,0.01101773,1503,0.049878457,1290,0.042809853,0.22089155,0.257364341,5.159829695
+7567,Baby Food Stage 2 Pumpkin Banana,Stage 2 Sweet Potato Corn & Apple Baby Food,464,0.015398273,4457,0.147909701,2808,0.093186098,0.104105901,0.165242165,1.117182741
+7575,Baby Food Stage 2 Pumpkin Banana,Apple and Carrot Stage 2 Baby Food,623,0.020674836,4457,0.147909701,4116,0.136593298,0.139780121,0.151360544,1.023330742
+4862,Blackberry Yogurt,Total 2% with Raspberry Pomegranate Lowfat Greek Strained Yogurt,527,0.017488986,3462,0.114889698,2710,0.089933877,0.152224148,0.194464945,1.692622991
+4869,Blackberry Yogurt,Pineapple Yogurt 2%,320,0.010619498,3462,0.114889698,2029,0.067334257,0.09243212,0.157713159,1.372735429
+5659,Blueberry Muffin Bar,Banana Bread Fruit & Nut Bar,430,0.014269951,5749,0.190785926,1884,0.062522297,0.074795617,0.228237792,1.196303086
+5123,Caramel Almond and Sea Salt Nut Bar,Maple Glazed Pecan & Sea Salt Bar,329,0.010918172,3611,0.119834402,1852,0.061460347,0.091110496,0.177645788,1.482427292
+4024,Chocolate Mint Builder's Bar,Builder's Chocolate Peanut Butter Bar,320,0.010619498,2254,0.074801092,2024,0.067168327,0.141969831,0.158102767,2.113642501
+4027,Chocolate Peanut Butter,Acai Berry Chia Bar,729,0.024192545,4651,0.154347772,2882,0.095641857,0.156740486,0.252949341,1.638827289
+5086,Chocolate Peanut Butter,Coconut Chia Bar,970,0.032190355,4651,0.154347772,4648,0.154248214,0.2085573,0.20869191,1.352088908
+2179,Chocolate Sea Salt,Coffee Chocolate Bar,460,0.015265529,4328,0.143628716,1449,0.048086416,0.106284658,0.317460317,2.210284453
+3124,Chocolate Sea Salt,Coconut  Chocolate Bar,859,0.028506716,4328,0.143628716,3043,0.100984793,0.198475046,0.282287217,1.965395395
+2181,Chocolate Sea Salt,Peanut Butter Egg White Protein Bar,631,0.020940323,4328,0.143628716,2373,0.078750218,0.145794824,0.265908133,1.85135773
+2178,Coconut  Chocolate Bar,Coffee Chocolate Bar,368,0.012212423,3043,0.100984793,1449,0.048086416,0.12093329,0.253968254,2.514915836
+2180,Coconut  Chocolate Bar,Peanut Butter Egg White Protein Bar,423,0.014037649,3043,0.100984793,2373,0.078750218,0.139007558,0.178255373,1.765170462
+2184,Coconut  Chocolate Bar,Chocolate Sea Salt,517,0.017157127,3043,0.100984793,4328,0.143628716,0.169898127,0.119454713,1.182898043
+4026,Coconut Chia Bar,Acai Berry Chia Bar,870,0.028871761,4648,0.154248214,2882,0.095641857,0.187177281,0.301873699,1.957064465
+4030,Coconut Chia Bar,Chocolate Peanut Butter,900,0.029867339,4648,0.154248214,4651,0.154347772,0.19363167,0.193506773,1.254515482
+6954,Coconut Cream Pie,Pecan Pie Fruit & Nut Food Bar,338,0.011216845,4677,0.155210606,1814,0.060199282,0.072268548,0.186328556,1.20048855
+6957,Coconut Cream Pie,Chocolate Coconut Chew Flavored Bar,377,0.012511097,4677,0.155210606,2188,0.07261082,0.080607227,0.172303473,1.110126928
+79,Compostable Forks,Plastic Spoons,321,0.010652684,1528,0.050708105,1838,0.060995744,0.210078534,0.174646355,3.444150699
+83,Cream Top Blueberry Yogurt,Cream Top Peach on the Bottom Yogurt,313,0.010387197,1676,0.055619623,1748,0.05800901,0.186754177,0.179061785,3.219399481
+85,Cream Top Blueberry Yogurt,Cream Top Strawberry on the Bottom Yogurt,333,0.011050916,1676,0.055619623,3452,0.114557839,0.198687351,0.096465817,1.734384593
+109,Cream Top Strawberry on the Bottom Yogurt,Cream Top Blueberry Yogurt,579,0.019214655,3452,0.114557839,1676,0.055619623,0.167728853,0.345465394,3.015641679
+84,Cream Top Strawberry on the Bottom Yogurt,Cream Top Peach on the Bottom Yogurt,463,0.015365087,3452,0.114557839,1748,0.05800901,0.134125145,0.264874142,2.312143319
+110,Cream Top Strawberry on the Bottom Yogurt,Cherry Vanilla Cherry On The Bottom Cream Top,310,0.010287639,3452,0.114557839,1802,0.05980105,0.089803013,0.172031077,1.501696245
+2162,Dairy Free Coconut Milk Blueberry Yogurt Alternative,Dairy Free Coconut Milk Yogurt Alternative,410,0.013606232,2581,0.085652892,1762,0.058473613,0.158853158,0.232690125,2.716663969
+2164,Dairy Free Coconut Milk Blueberry Yogurt Alternative,Dairy Free Coconut Milk Raspberry Yogurt Alternative,443,0.014701368,2581,0.085652892,2451,0.081338721,0.1716389,0.180742554,2.110174571
+3119,Dairy Free Coconut Milk Raspberry Yogurt Alternative,Dairy Free Coconut Milk Blueberry Yogurt Alternative,472,0.01566376,2451,0.081338721,2581,0.085652892,0.192574459,0.182874855,2.248312409
+2163,Dairy Free Coconut Milk Raspberry Yogurt Alternative,Dairy Free Coconut Milk Yogurt Alternative,320,0.010619498,2451,0.081338721,1762,0.058473613,0.130558956,0.181611805,2.232784135
+3121,Dairy Free Coconut Milk Vanilla Yogurt Alternative,Dairy Free Coconut Milk Blueberry Yogurt Alternative,370,0.012278795,3447,0.114391909,2581,0.085652892,0.107339716,0.143355289,1.2531943
+2165,Dairy Free Coconut Milk Vanilla Yogurt Alternative,Dairy Free Coconut Milk Raspberry Yogurt Alternative,320,0.010619498,3447,0.114391909,2451,0.081338721,0.092834349,0.130558956,1.14133033
+3120,Dairy Free Coconut Milk Yogurt Alternative,Dairy Free Coconut Milk Blueberry Yogurt Alternative,307,0.010188081,1762,0.058473613,2581,0.085652892,0.174233825,0.118946145,2.034184972
+90,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Pear Kiwi & Kale Baby Food,405,0.013440303,2167,0.071913916,1763,0.058506799,0.186894324,0.229722065,3.194403509
+93,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,466,0.015464645,2167,0.071913916,2782,0.092323264,0.215043839,0.167505392,2.329248661
+5144,Fire Grilled Steak Bowl,Teriyaki Chicken Bowl,390,0.012942514,3047,0.101117536,2691,0.089303344,0.127994749,0.144927536,1.433258182
+4859,Flip™ Low-Fat Almond Coco Loco Lowfat Greek Yogurt,Nutty for 'Nana Low-Fat Greek Yogurt,329,0.010918172,3941,0.13078576,1472,0.048849693,0.08348135,0.223505435,1.708943198
+4860,Flip™ Low-Fat Almond Coco Loco Lowfat Greek Yogurt,Flip™ Low-Fat Key Lime Crumble Greek Yogurt,445,0.01476774,3941,0.13078576,3067,0.101781255,0.112915504,0.145092925,1.109393903
+1,Grain Free Chicken Formula Cat Food,Grain Free Turkey Formula Cat Food,318,0.010553127,1809,0.060033352,879,0.029170435,0.175787728,0.361774744,6.026229301
+2,Grain Free Chicken Formula Cat Food,Grain Free Turkey & Salmon Formula Cat Food,391,0.0129757,1809,0.060033352,1553,0.051537753,0.216141515,0.251770766,4.193848227
+2191,Greek Whole Milk Blended Blueberry Yogurt,Organic Blended Raspberry Whole Milk Greek Yogurt,572,0.018982353,2647,0.087843163,2598,0.086217053,0.216093691,0.220169361,2.506391537
+2195,Greek Whole Milk Blended Blueberry Yogurt,Organic Greek Whole Milk Blended Strawberry Yogurt,689,0.022865107,2647,0.087843163,4198,0.139314545,0.260294673,0.164125774,1.868395536
+5652,"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Baby Food Banana Beet & Blueberry,336,0.011150473,3960,0.131416293,2005,0.066537795,0.084848485,0.167581047,1.275192322
+5655,"Happy Baby Spinach, Mango, and Pear Baby Food",Organic Stage 2 Broccoli Pears & Peas Baby Food,431,0.014303137,3960,0.131416293,2667,0.088506882,0.108838384,0.161604799,1.229716622
+4044,Lemon Cayenne Agave Cold Pressed Juice Beverage,Lime Ginger Lemon Agave,325,0.010785428,2809,0.093219284,1868,0.061991322,0.115699537,0.173982869,1.866382805
+5658,Lemon Fruit & Nut Food Bar,Banana Bread Fruit & Nut Bar,312,0.010354011,3965,0.131582222,1884,0.062522297,0.078688525,0.165605096,1.258567401
+5786,Lemon Sparkling Water,Natural Lemon Flavored Sparkling Water,548,0.018185891,9424,0.312744228,1450,0.048119602,0.058149406,0.377931034,1.208434884
+7700,Lowfat Blueberry Yogurt,Organic Peach Lowfat Yogurt,620,0.020575278,4318,0.143296856,4237,0.140608796,0.143584993,0.14632995,1.021166507
+7724,Lowfat Key Lime Yogurt,Organic Lemon Lowfat Yogurt,525,0.017422615,3912,0.129823368,3954,0.131217177,0.134202454,0.132776935,1.022750657
+5723,Low-Fat Mango on the Bottom Greek Yogurt,Pomegranate on the Bottom Non-Fat Greek Yogurt,306,0.010154895,3578,0.118739266,2100,0.069690458,0.085522638,0.145714286,1.227178591
+5730,Low-Fat Mango on the Bottom Greek Yogurt,Pineapple on the Bottom Greek Yogurt,450,0.01493367,3578,0.118739266,3332,0.110575527,0.125768586,0.135054022,1.137399831
+7443,Mango Yoghurt,Peach Yoghurt,579,0.019214655,4018,0.133341077,3724,0.123584413,0.144101543,0.155477981,1.166017138
+2176,Mediterranee Strawberry Yogurt,French Vanilla Yogurt,320,0.010619498,2107,0.06992276,1753,0.05817494,0.151874703,0.18254421,2.610655109
+55,"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack","Mighty 4 Essential Tots Spinach, Kiwi, Barley & Greek Yogurt Nutrition Blend",390,0.012942514,2206,0.073208167,1337,0.044369592,0.176790571,0.291697831,3.984498488
+57,"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack","Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",590,0.0195797,2206,0.073208167,2534,0.084093153,0.267452403,0.232833465,3.180430193
+62,"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,393,0.013042071,2206,0.073208167,1952,0.06477894,0.178150499,0.201331967,2.750129874
+58,Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",436,0.014469067,1952,0.06477894,2534,0.084093153,0.223360656,0.172059984,2.656109897
+71,Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,"Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",347,0.011515519,1952,0.06477894,2206,0.073208167,0.177766393,0.157298277,2.42823172
+56,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack","Mighty 4 Essential Tots Spinach, Kiwi, Barley & Greek Yogurt Nutrition Blend",398,0.013208001,2534,0.084093153,1337,0.044369592,0.157063931,0.297681376,3.539900288
+70,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack","Mighty 4 Kale, Strawberry, Amaranth & Greek Yogurt Tots Snack",561,0.018617308,2534,0.084093153,2206,0.073208167,0.221389108,0.254306437,3.024103963
+63,"Mighty 4 Sweet Potato, Blueberry, Millet & Greek Yogurt Tots Snack",Mighty 4 Purple Carrot Blackberry Quinoa & Greek Yogurt Tots Snack,495,0.016427037,2534,0.084093153,1952,0.06477894,0.195343331,0.253586066,3.015537613
+5146,Mixed Berries Whole Milk Icelandic Style Skyr Yogurt,Strained Whole-Milk Yogurt Blueberry,565,0.018750052,7214,0.239403317,1676,0.055619623,0.078319933,0.337112172,1.408134925
+7748,Moroccan Mint Green Tea,Organic Peach Oo La Long Tea,334,0.011084101,3107,0.103108692,3103,0.102975948,0.107499195,0.10763777,1.043925275
+5114,Natural Lime Flavor Sparkling Mineral Water,"Sparkling Mineral Water, Natural Lemon Flavor",374,0.012411539,3501,0.11618395,2087,0.069259041,0.106826621,0.1792046,1.542421311
+5724,Non Fat Black Cherry on the Bottom Greek Yogurt,Pomegranate on the Bottom Non-Fat Greek Yogurt,338,0.011216845,4660,0.154646445,2100,0.069690458,0.072532189,0.160952381,1.040776466
+6990,Non-Fat Blueberry on the Bottom Greek Yogurt,Non-Fat Greek Yogurt With Strawberries on the Bottom,552,0.018318635,3016,0.100088772,4640,0.153982727,0.183023873,0.118965517,1.188600024
+5142,Non-Fat Greek Yogurt With Strawberries on the Bottom,Non-Fat Blueberry on the Bottom Greek Yogurt,670,0.022234575,4640,0.153982727,3016,0.100088772,0.144396552,0.222148541,1.442684812
+9,Nonfat Strawberry With Fruit On The Bottom Greek Yogurt,"0% Greek, Blueberry on the Bottom Yogurt",409,0.013573046,1666,0.055287764,1391,0.046161632,0.245498199,0.29403307,5.318230491
+46,Oh My Yog! Gingered Pear Trilayer Yogurt,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,382,0.012677026,1749,0.058042196,2271,0.075365253,0.21841052,0.168207838,2.898026777
+53,Oh My Yog! Gingered Pear Trilayer Yogurt,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,346,0.011482333,1749,0.058042196,2567,0.085188289,0.19782733,0.13478769,2.322236225
+104,Oh My Yog! Gingered Pear Trilayer Yogurt,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,372,0.012345167,1749,0.058042196,2857,0.094812209,0.212692967,0.13020651,2.243307791
+45,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,569,0.018882796,2567,0.085188289,2271,0.075365253,0.221659525,0.250550418,2.941136888
+50,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,Oh My Yog! Gingered Pear Trilayer Yogurt,380,0.012610654,2567,0.085188289,1749,0.058042196,0.148032723,0.21726701,2.550432848
+103,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,586,0.019446956,2567,0.085188289,2857,0.094812209,0.228282041,0.205110256,2.407728324
+49,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,Oh My Yog! Gingered Pear Trilayer Yogurt,405,0.013440303,2271,0.075365253,1749,0.058042196,0.178335535,0.231560892,3.0725153
+102,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,642,0.021305369,2271,0.075365253,2857,0.094812209,0.282694848,0.224711236,2.981629167
+52,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,415,0.013772162,2271,0.075365253,2567,0.085188289,0.182738882,0.161667316,2.145117414
+44,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,Oh My Yog! Organic Wild Quebec Blueberry Cream Top Yogurt & Fruit,860,0.028539902,2857,0.094812209,2271,0.075365253,0.301015051,0.378687803,3.994082685
+48,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,Oh My Yog! Gingered Pear Trilayer Yogurt,446,0.014800926,2857,0.094812209,1749,0.058042196,0.156107805,0.255002859,2.689557191
+51,Oh My Yog! Pacific Coast Strawberry Trilayer Yogurt,Oh My Yog! Madagascar Vanilla Trilayer Yogyurt,640,0.021238997,2857,0.094812209,2567,0.085188289,0.224011201,0.24931827,2.6296009
+4816,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,"Organic Apples, Carrots and Parsnips Puree",443,0.014701368,3237,0.107422863,2568,0.085221475,0.136855113,0.172507788,1.605875906
+5101,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,601,0.019944745,3237,0.107422863,5577,0.185077945,0.18566574,0.107764031,1.003175929
+4825,"Organic Apples, Carrots and Parsnips Puree",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,401,0.013307559,2568,0.085221475,3237,0.107422863,0.156152648,0.123880136,1.45362582
+5104,"Organic Apples, Carrots and Parsnips Puree",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,529,0.017555358,2568,0.085221475,5577,0.185077945,0.205996885,0.094853864,1.113027726
+5626,Organic Atage 3 Nibbly Fingers Mangoes Carrots,Apples + Strawberries Organic Nibbly Fingers,367,0.012179237,2462,0.081703766,3292,0.10924809,0.1490658,0.111482382,1.364470542
+4014,Organic Blended Raspberry Whole Milk Greek Yogurt,Greek Whole Milk Blended Blueberry Yogurt,476,0.015796504,2598,0.086217053,2647,0.087843163,0.18321786,0.179826218,2.085738412
+2196,Organic Blended Raspberry Whole Milk Greek Yogurt,Organic Greek Whole Milk Blended Strawberry Yogurt,529,0.017555358,2598,0.086217053,4198,0.139314545,0.203618168,0.126012387,1.4615715
+89,Organic Coconut Yogurt,Organic Mango Yogurt,334,0.011084101,1873,0.062157252,1675,0.055586437,0.178323545,0.199402985,3.208040577
+106,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,"Fiber & Protein Organic Pears, Raspberries, Butternut Squash & Carrots Snack",606,0.020110675,2782,0.092323264,2167,0.071913916,0.2178289,0.279649285,3.029022936
+91,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,Pear Kiwi & Kale Baby Food,468,0.015531016,2782,0.092323264,1763,0.058506799,0.168224299,0.265456608,2.875294872
+3,Organic Fruit Yogurt Smoothie Mixed Berry,Apple Blueberry Fruit Yogurt Smoothie,349,0.01158189,1518,0.050376246,1249,0.04144923,0.229907773,0.279423539,5.546732116
+5,Organic Fruit Yogurt Smoothie Mixed Berry,Organic Strawberry Banana Fruit Yogurt Smoothie,323,0.010719056,1518,0.050376246,3479,0.115453859,0.212779974,0.092842771,1.842987106
+10,Organic Grapefruit Ginger Sparkling Yerba Mate,Cranberry Pomegranate Sparkling Yerba Mate,351,0.011648262,1731,0.057444849,1149,0.038130636,0.202772964,0.305483029,5.317848917
+7551,Organic Greek Lowfat Yogurt With Blueberries,Organic Greek Lowfat Yogurt With Cherries,595,0.01974563,4774,0.158429642,3660,0.121460513,0.124633431,0.162568306,1.026123043
+7542,Organic Greek Lowfat Yogurt With Strawberries,Organic Greek Lowfat Yogurt With Blueberries,1092,0.036239038,6305,0.209237304,4774,0.158429642,0.173195876,0.228739003,1.093203737
+7515,Organic Greek Nonfat Yogurt With Mixed Berries,Organic Nonfat Greek Yogurt With Raspberries,698,0.023163781,6888,0.228584703,2664,0.088407324,0.101335656,0.262012012,1.146235984
+2192,Organic Greek Whole Milk Blended Strawberry Yogurt,Organic Blended Raspberry Whole Milk Greek Yogurt,780,0.025885027,4198,0.139314545,2598,0.086217053,0.185802763,0.300230947,2.155058166
+4013,Organic Greek Whole Milk Blended Strawberry Yogurt,Greek Whole Milk Blended Blueberry Yogurt,769,0.025519982,4198,0.139314545,2647,0.087843163,0.183182468,0.290517567,2.085335512
+5645,Organic Lemon Lowfat Yogurt,Lowfat Key Lime Yogurt,657,0.021803158,3954,0.131217177,3912,0.129823368,0.16616085,0.167944785,1.279899393
+24,Organic Mango Yogurt,Organic Whole Milk Washington Black Cherry Yogurt,334,0.011084101,1675,0.055586437,1390,0.046128446,0.199402985,0.24028777,4.322776978
+7514,Organic Nonfat Greek Yogurt With Peaches,Organic Nonfat Greek Yogurt With Raspberries,616,0.020442534,6063,0.201206309,2664,0.088407324,0.101599868,0.231231231,1.149224559
+99,Organic Peach Oo La Long Tea,Honest T Mango White Tea,326,0.010818614,3103,0.102975948,994,0.032986817,0.10505962,0.327967807,3.184897169
+4824,"Organic Pears, Peas and Broccoli Puree Stage 1",Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,812,0.026946977,5029,0.166892054,3237,0.107422863,0.161463512,0.250849552,1.503064678
+4817,"Organic Pears, Peas and Broccoli Puree Stage 1","Organic Apples, Carrots and Parsnips Puree",628,0.020840766,5029,0.166892054,2568,0.085221475,0.124875721,0.244548287,1.465308144
+5103,"Organic Pears, Peas and Broccoli Puree Stage 1",Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,1057,0.035077531,5029,0.166892054,5577,0.185077945,0.21018095,0.18952842,1.135634773
+7688,Organic Raspberry Lowfat Yogurt,Lowfat Blueberry Yogurt,789,0.026183701,5267,0.174790306,4318,0.143296856,0.149800646,0.182723483,1.045386823
+75,Organic Stage 2 Carrots Baby Food,Organic Stage 2 Winter Squash Baby Food Puree,337,0.011183659,2306,0.07652676,1322,0.043871803,0.146140503,0.254916793,3.331080418
+80,Organic Stage 2 Carrots Baby Food,Sweet Potatoes Stage 2,458,0.015199157,2306,0.07652676,2077,0.068927182,0.198612316,0.220510351,2.88148029
+4832,Organic Stage 2 Peaches & Bananas Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,560,0.018584122,3376,0.112035708,3218,0.106792331,0.165876777,0.174021131,1.553264884
+4790,Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Apple & Butternut Squash Baby Food,419,0.013904906,3714,0.123252553,1912,0.063451503,0.11281637,0.219142259,1.777993669
+95,Organic Stage 4 Green Bean Pear & Pea Baby Food,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,389,0.012909328,3714,0.123252553,2782,0.092323264,0.104738826,0.139827462,1.134479235
+5131,Organic Stage 4 Spinach Mango & Pear Baby Food,Organic Stage 4 Green Bean Pear & Pea Baby Food,527,0.017488986,4009,0.133042403,3714,0.123252553,0.131454228,0.14189553,1.06654365
+4794,Organic Stage 4 Spinach Mango & Pear Baby Food,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",468,0.015531016,4009,0.133042403,3445,0.114325537,0.116737341,0.135849057,1.02109593
+1194,Organic Strawberry Banana Fruit Yogurt Smoothie,Organic Fruit Yogurt Smoothie Peach Banana,363,0.012046493,3479,0.115453859,1116,0.037035501,0.104340328,0.325268817,2.817305716
+1195,Organic Strawberry Banana Fruit Yogurt Smoothie,Organic Pear Mango Fruit Yogurt Smoothie,361,0.011980122,3479,0.115453859,1127,0.037400546,0.10376545,0.320319432,2.774436771
+1196,Organic Strawberry Banana Fruit Yogurt Smoothie,Organic Fruit Yogurt Smoothie Mixed Berry,393,0.013042071,3479,0.115453859,1518,0.050376246,0.112963495,0.258893281,2.242396076
+4,Organic Strawberry Banana Fruit Yogurt Smoothie,Apple Blueberry Fruit Yogurt Smoothie,320,0.010619498,3479,0.115453859,1249,0.04144923,0.091980454,0.256204964,2.219111305
+0,Organic Strawberry Chia Lowfat 2% Cottage Cheese,Organic Cottage Cheese Blueberry Acai Chia,306,0.010154895,1163,0.038595239,839,0.027842997,0.26311264,0.364719905,9.449867641
+7671,Organic Strawberry Yogurt & Fruit Snack,Banana & Mango Organic Yogurt & Fruit Snacks ,463,0.015365087,4550,0.150995993,2899,0.096206018,0.101758242,0.159710245,1.05771181
+5632,Organic Sunny Days Apple Snack Bars,Sunny Days Strawberry Snack Bars,315,0.010453569,2450,0.081305535,2881,0.095608671,0.128571429,0.109337036,1.344767442
+5858,Organic Whole Milk Strawberry Beet Berry Yogurt Pouch,Blueberry Whole Milk Yogurt Pouch,1040,0.03451337,6272,0.208142169,4917,0.16317523,0.165816327,0.211511084,1.016185646
+8222,Organic Whole Milk Strawberry Beet Berry Yogurt Pouch,Yotoddler Organic Pear Spinach Mango Yogurt,1290,0.042809853,6272,0.208142169,6121,0.203131093,0.20567602,0.210749877,1.012528499
+5095,Original Strawberry Low Fat Yogurt,Original Mountain Blueberry Low Fat Yogurt,373,0.012378353,4163,0.138153037,1673,0.055520065,0.089598847,0.222952779,1.613810195
+5097,Original Strawberry Low Fat Yogurt,Harvest Peach Yogurt,503,0.016692524,4163,0.138153037,2963,0.098329918,0.120826327,0.169760378,1.228784989
+5099,Original Strawberry Low Fat Yogurt,Original Strawberry Banana Yogurt,378,0.012544282,4163,0.138153037,2349,0.077953755,0.090799904,0.16091954,1.164791913
+5614,Peanut Butter Bar,Carob Chip,417,0.013838534,5304,0.176018186,1687,0.055984668,0.07861991,0.247184351,1.404311433
+5615,Peanut Butter Bar,Organic Gluten Free Cranberry Crunch Bar,341,0.011316403,5304,0.176018186,1562,0.051836427,0.064291101,0.218309859,1.240268771
+5616,Peanut Butter Bar,"Almond Coconut Bar, Organic",326,0.010818614,5304,0.176018186,1558,0.051703683,0.061463047,0.209242619,1.188755683
+5617,Peanut Butter Bar,Almond Butter,615,0.020409348,5304,0.176018186,3144,0.104336572,0.115950226,0.195610687,1.111309528
+4022,Peanut Butter Chocolate Chip Macrobar,Organic Sunflower Butter Chocolate Macrobar,336,0.011150473,3032,0.100619747,1555,0.051604125,0.110817942,0.21607717,2.147462861
+4023,Peanut Butter Chocolate Chip Macrobar,Peanut Butter Protein Replenishment Macrobar,310,0.010287639,3032,0.100619747,1549,0.051405009,0.102242744,0.200129116,1.988964601
+3125,Peanut Butter Egg White Protein Bar,Coconut  Chocolate Bar,332,0.01101773,2373,0.078750218,3043,0.100984793,0.13990729,0.109102859,1.385429299
+2185,Peanut Butter Egg White Protein Bar,Chocolate Sea Salt,384,0.012743398,2373,0.078750218,4328,0.143628716,0.16182048,0.088724584,1.12665827
+7576,Pear & Mango Stage 2 Baby Food,Apple and Carrot Stage 2 Baby Food,565,0.018750052,4017,0.133307891,4116,0.136593298,0.140652228,0.137269193,1.02971544
+94,Pear Kiwi & Kale Baby Food,Organic Fiber & Protein Pear Blueberry & Spinach Baby Food,329,0.010918172,1763,0.058506799,2782,0.092323264,0.186613727,0.118260244,2.02130772
+2154,"Pears, Kale & Spinach Organic Baby Food","Apples, Pumpkin & Carrots Organic Baby Food",326,0.010818614,2219,0.073639584,1629,0.054059884,0.146913024,0.200122775,2.717597837
+2158,"Pears, Kale & Spinach Organic Baby Food","Apples, Kale & Avocados Organic Baby Food",367,0.012179237,2219,0.073639584,2735,0.090763525,0.165389815,0.134186472,1.822205722
+5137,Plus Cranberry Almond + Antioxidants with Macadamia Nuts Bar,Almond & Apricot Bar,307,0.010188081,3131,0.103905155,2031,0.067400629,0.098051741,0.151157065,1.454760027
+3116,Pumpkin & Spinach Stage 2 Baby Food,Squash & Sweet Peas Stage 2,398,0.013208001,2013,0.066803282,2435,0.080807746,0.197714853,0.163449692,2.446731461
+25,Raspberry Essence Water,Unsweetened Pomegranate Essence Water,366,0.012146051,2025,0.067201513,1304,0.043274456,0.180740741,0.280674847,4.176614974
+28,Raspberry Essence Water,Unsweet Peach Water,328,0.010884986,2025,0.067201513,1779,0.059037774,0.161975309,0.184373243,2.743587672
+32,Raspberry Essence Water,Unsweetened Strawberry Kiwi Water,304,0.010088523,2025,0.067201513,1657,0.05498909,0.150123457,0.183464092,2.730058934
+35,Raspberry Essence Water,Unsweetened Blackberry Water,391,0.0129757,2025,0.067201513,3114,0.103340994,0.19308642,0.125561978,1.868439742
+38,Raspberry Essence Water,Unsweetened Watermelon Water,303,0.010055338,2025,0.067201513,4113,0.13649374,0.14962963,0.073668855,1.096238035
+5721,"Sparkling Mineral Water, Natural Lemon Flavor",Natural Lime Flavor Sparkling Mineral Water,303,0.010055338,2087,0.069259041,3501,0.11618395,0.145184475,0.086546701,1.249608709
+4041,Squash & Sweet Peas Stage 2,Pumpkin & Spinach Stage 2 Baby Food,309,0.010254453,2435,0.080807746,2013,0.066803282,0.126899384,0.153502235,1.899598044
+4853,Stage 1 Apples & Strawberries Organic Pureed Baby Food,Organic Stage 2 Peaches & Bananas Baby Food,483,0.016028805,3218,0.106792331,3376,0.112035708,0.150093226,0.14306872,1.339690963
+4818,Stage 1 Apples & Strawberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree",336,0.011150473,3218,0.106792331,2568,0.085221475,0.104412679,0.130841121,1.225192114
+4815,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,"Organic Apples, Carrots and Parsnips Puree",813,0.026980163,5577,0.185077945,2568,0.085221475,0.1457773,0.316588785,1.710570021
+4822,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Organic 4 Months Butternut Squash Carrots Apples + Prunes Baby Food,930,0.030862917,5577,0.185077945,3237,0.107422863,0.166756321,0.287303058,1.552335464
+4831,Stage 1 Apples Sweet Potatoes Pumpkin & Blueberries Organic Pureed Baby Food,Stage 1 Apples & Strawberries Organic Pureed Baby Food,605,0.020077489,5577,0.185077945,3218,0.106792331,0.108481262,0.188004972,1.015815102
+5125,Sunny Days Strawberry Snack Bars,Organic Sunny Days Apple Snack Bars,341,0.011316403,2881,0.095608671,2450,0.081305535,0.11836168,0.139183673,1.45576412
+4791,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Apple & Butternut Squash Baby Food,318,0.010553127,3445,0.114325537,1912,0.063451503,0.092307692,0.166317992,1.454775507
+5130,"Sweeet Potato, Apple, Carrot & Cinnamon Organic Superfoods",Organic Stage 4 Green Bean Pear & Pea Baby Food,449,0.014900484,3445,0.114325537,3714,0.123252553,0.130333817,0.120893915,1.057453284
+74,Sweet Potatoes Stage 2,Organic Stage 2 Winter Squash Baby Food Puree,322,0.01068587,2077,0.068927182,1322,0.043871803,0.155031295,0.243570348,3.533734322
+76,Sweet Potatoes Stage 2,Organic Stage 2 Carrots Baby Food,355,0.011781006,2077,0.068927182,2306,0.07652676,0.170919596,0.153946227,2.233461797
+5637,Total 2% with Raspberry Pomegranate Lowfat Greek Strained Yogurt,Blackberry Yogurt,404,0.013407117,2710,0.089933877,3462,0.114889698,0.149077491,0.116695552,1.297570566
+5093,Tuscan Kale & Quinoa Salad,Santa Fe Fiesta Salad,320,0.010619498,2521,0.083661736,2360,0.078318801,0.126933756,0.13559322,1.620731617
+23,Uncured Cracked Pepper Beef,Chipotle Beef & Pork Realstick,410,0.013606232,1839,0.06102893,1370,0.045464728,0.222947254,0.299270073,4.903741124
+26,Unsweetened Blackberry Water,Unsweetened Pomegranate Essence Water,494,0.016393851,3114,0.103340994,1304,0.043274456,0.158638407,0.378834356,3.665867165
+67,Unsweetened Blackberry Water,Raspberry Essence Water,660,0.021902715,3114,0.103340994,2025,0.067201513,0.21194605,0.325925926,3.153888056
+69,Unsweetened Blackberry Water,"Water, Unsweet, Blood Orange",303,0.010055338,3114,0.103340994,1010,0.033517792,0.097302505,0.3,2.903010597
+29,Unsweetened Blackberry Water,Unsweet Peach Water,456,0.015132785,3114,0.103340994,1779,0.059037774,0.146435453,0.256323777,2.480368807
+33,Unsweetened Blackberry Water,Unsweetened Strawberry Kiwi Water,349,0.01158189,3114,0.103340994,1657,0.05498909,0.112074502,0.210621605,2.038122507
+39,Unsweetened Blackberry Water,Unsweetened Watermelon Water,561,0.018617308,3114,0.103340994,4113,0.13649374,0.180154143,0.136396791,1.319871096
+30,Unsweetened Strawberry Kiwi Water,Unsweet Peach Water,311,0.010320825,1657,0.05498909,1779,0.059037774,0.187688594,0.174817313,3.179127218
+34,Unsweetened Watermelon Water,Unsweetened Strawberry Kiwi Water,562,0.018650494,4113,0.13649374,1657,0.05498909,0.136639922,0.33916717,2.484855121
+31,Unsweetened Watermelon Water,Unsweet Peach Water,599,0.019878374,4113,0.13649374,1779,0.059037774,0.145635789,0.336706015,2.466823855
+2202,Unsweetened Watermelon Water,"Water, Unsweet, Crisp Apple",460,0.015265529,4113,0.13649374,1418,0.047057652,0.111840506,0.324400564,2.3766699
+27,Unsweetened Watermelon Water,Unsweetened Pomegranate Essence Water,420,0.013938092,4113,0.13649374,1304,0.043274456,0.102115244,0.32208589,2.3597118
+68,Unsweetened Watermelon Water,Raspberry Essence Water,580,0.019247841,4113,0.13649374,2025,0.067201513,0.14101629,0.286419753,2.09840944
+2203,Unsweetened Watermelon Water,Mango Grapefruit Water,306,0.010154895,4113,0.13649374,1146,0.038031079,0.074398249,0.267015707,1.956248735
+36,Unsweetened Watermelon Water,Unsweetened Blackberry Water,710,0.023562012,4113,0.13649374,3114,0.103340994,0.172623389,0.228002569,1.670425094
+21,Unsweetened Whole Milk Blueberry Greek Yogurt,Unsweetened Whole Milk Strawberry Yogurt,350,0.011615076,1621,0.053794397,1965,0.065210357,0.215916101,0.178117048,3.311070664
+17,Unsweetened Whole Milk Blueberry Greek Yogurt,Unsweetened Whole Milk Peach Greek Yogurt,341,0.011316403,1621,0.053794397,1922,0.063783362,0.210363973,0.177419355,3.298101033
+12,Unsweetened Whole Milk Mixed Berry Greek Yogurt,Unsweetened Whole Milk Blueberry Greek Yogurt,438,0.014535438,1622,0.053827582,1621,0.053794397,0.270036991,0.270203578,5.019797761
+15,Unsweetened Whole Milk Mixed Berry Greek Yogurt,Unsweetened Whole Milk Peach Greek Yogurt,410,0.013606232,1622,0.053827582,1922,0.063783362,0.252774353,0.213319459,3.963013924
+19,Unsweetened Whole Milk Mixed Berry Greek Yogurt,Unsweetened Whole Milk Strawberry Yogurt,383,0.012710212,1622,0.053827582,1965,0.065210357,0.236128237,0.194910941,3.621023506
+14,Unsweetened Whole Milk Peach Greek Yogurt,Unsweetened Whole Milk Blueberry Greek Yogurt,421,0.013971278,1922,0.063783362,1621,0.053794397,0.219042664,0.259716225,4.071849076
+20,Unsweetened Whole Milk Peach Greek Yogurt,Unsweetened Whole Milk Strawberry Yogurt,499,0.01655978,1922,0.063783362,1965,0.065210357,0.25962539,0.25394402,3.981352056
+43,Unsweetened Whole Milk Peach Greek Yogurt,Unsweetened Whole Milk Mixed Berry Greek Yogurt,407,0.013506675,1922,0.063783362,1622,0.053827582,0.211758585,0.250924784,3.934016261
+13,Unsweetened Whole Milk Strawberry Yogurt,Unsweetened Whole Milk Blueberry Greek Yogurt,440,0.01460181,1965,0.065210357,1621,0.053794397,0.223918575,0.271437384,4.162488835
+16,Unsweetened Whole Milk Strawberry Yogurt,Unsweetened Whole Milk Peach Greek Yogurt,444,0.014734554,1965,0.065210357,1922,0.063783362,0.225954198,0.231009365,3.542525677
+42,Unsweetened Whole Milk Strawberry Yogurt,Unsweetened Whole Milk Mixed Berry Greek Yogurt,352,0.011681448,1965,0.065210357,1622,0.053827582,0.17913486,0.21701603,3.327938053
+7656,Vitamin Water Zero Rise Orange,Zero Go-Go Mixed Berry Vitamin Water,331,0.010984544,4321,0.143396414,2099,0.069657272,0.076602638,0.15769414,1.099707694
+5115,VitaminWater Zero™ XXX Acai Blueberry Pomegranate,Zero Vitamin Water,316,0.010486755,3337,0.110741457,1855,0.061559905,0.094695835,0.170350404,1.538271298
+7689,"Yogurt, Lowfat, Strawberry",Lowfat Blueberry Yogurt,1196,0.039690375,8026,0.266350294,4318,0.143296856,0.149015699,0.276980083,1.039909058
+5621,Yokids Organic Strawberry Banana Lowfat Yogurt Squeeze,YoKids Squeeze Organic Blueberry Blue Yogurt,379,0.012577468,2365,0.07848473,3471,0.115188372,0.1602537,0.109190435,1.391231576
+4773,YoKids Squeeze Organic Blueberry Blue Yogurt,Yokids Organic Strawberry Banana Lowfat Yogurt Squeeze,489,0.016227921,3471,0.115188372,2365,0.07848473,0.14088159,0.206765328,1.795019104
+5622,YoKids Squeeze! Organic Strawberry Flavor Yogurt,YoKids Squeeze Organic Blueberry Blue Yogurt,926,0.030730173,6800,0.225664341,3471,0.115188372,0.136176471,0.266781907,1.182206751
+4774,YoKids Squeeze! Organic Strawberry Flavor Yogurt,Yokids Organic Strawberry Banana Lowfat Yogurt Squeeze,625,0.020741208,6800,0.225664341,2365,0.07848473,0.091911765,0.264270613,1.171078302
+5844,Yotoddler Organic Pear Spinach Mango Yogurt,Organic Whole Milk Strawberry Beet Berry Yogurt Pouch,1533,0.050874034,6121,0.203131093,6272,0.208142169,0.250449273,0.244419643,1.203260612
+5856,Yotoddler Organic Pear Spinach Mango Yogurt,Blueberry Whole Milk Yogurt Pouch,1053,0.034944787,6121,0.203131093,4917,0.16317523,0.172030714,0.214154973,1.05426978
