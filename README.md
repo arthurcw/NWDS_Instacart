@@ -43,6 +43,7 @@ Theere were 206,200 unique user buying more than 33.8 million items in 3.4 milli
 ## 3. Customer Segmentation
 We attempt to divide customers into groups based on their purchase history. The groups are then fed into the recommender system to tailor product recommendation for each target group. Because there is no pre-assigned group, we deploy unsupervised learning methods such as `K-means`, `DBSCAN` and `hierarichal clustering` to find underlying pattern and classify customers into groups.
 
+#### a. Data Preprocessing
 ##### i. Order History for Each Customer
 Data were aggregated by creating a purchase summary matrix for each customer. Rows represent each individual customer (`user_id`), columns represent product categories, and the resulting matrix is total number of products in each category. We have decided to aggregate purchases by both `department` and `aisle`, and an additional `organic` product category that was not classified in the original dataset. See the full data pareparation notebok [here](https://github.com/arthurcw/NWDS_Instacart/blob/master/CustomerSegmentation/0_DataPrep.ipynb)
 Image
@@ -53,4 +54,32 @@ Image
 With 157 product categories and sub-categories (`department`, `aisle`, and `organic`), we applied PCA to reduce the number of dimensions to 71 that explains 95% of the variance in data. 
 ![PCA](https://github.com/arthurcw/NWDS_Instacart/blob/master/Outputs/PCA_variance.png)
 
+#### b. Clustering Methods
+Three clustering methods were tested:
+1. K-Means Clustering [notebook](https://github.com/arthurcw/NWDS_Instacart/blob/master/CustomerSegmentation/2_kmeans.ipynb)
+2. DBSCAN
+3. Hierarchical Clustering
+
+We tested with 2 to 20 clusters. Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were used to help select the number of clusters. 
+
+#### c. Results
+- DBSCAN performed the worst, generating some clusters with very few customers.
+- K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
+- We settled with 5 clusters/groups
+
+| # | Name         | Description                                                                                |
+|:-:| ------------ | ------------------------------------------------------------------------------------------ |
+| 0 | The Majority | Most customers in this group, buying mostly fresh fruits and veges.                        |
+| 1 | New Parents  | Buys mostly organic baby food; purchased 2 times the number of products than other groups. | 
+| 2 | Family Guy   | Buys baby food too, but also on other categories                                           |
+| 3 | The Drinkers | Mostly uses Instacart to buy beer and wine                                                 |
+| 4 | The Packers  | Buys mostly packaged produce                                                               |
+
+![KmeansCluster](https://github.com/arthurcw/NWDS_Instacart/blob/master/Outputs/Kmeans_Images/Kmeans_customer_group5.png)
+
 ## 4. Recommendation System
+
+
+
+## 5. Example
+
