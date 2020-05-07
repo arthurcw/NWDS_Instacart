@@ -14,8 +14,8 @@ Data were imported into PostgreSQL. Database structure is shown in the diagram b
 ![Diagram](./SQL/Database_Diagram.PNG)
 
 - `products`: contains product name and the assigned `aisle` and `department id`
-- `aisles`: contains name of aisle
-- `departments`: contains name of department
+- `aisles`: aisle name, a product sub-category under department
+- `departments`: department name, product category
 - `orders`: has info on customer, when order was placed and days since prior order
 - `order_products`: stores info on what items were bought in each order, the order that item was added to cart, and if item has been ordered previously 
 
@@ -27,16 +27,19 @@ Theere were 206,200 unique user buying more than 33.8 million items in 3.4 milli
 ![Products](./Outputs/EDA_Images/productsPerOrder.png)
 
 
-#### b. 1/3 of purchased products are produce
+#### b. 1/3 of purchased products are produce, and mostly fresh fruits and fresh veges
 ![DeptAisle](./Outputs/EDA_Images/popularDeptAisle.png)
 
 #### c. Bananas are everyone's favorite
 ![PopProduct](./Outputs/EDA_Images/popularProducts.PNG)
 
+#### d. Daily food items are more often reordered
 ![reOrder](./Outputs/EDA_Images/reorderDept.png)
 
+#### e. Most people placed orders at 3pm on Weekday 0 or 10am on Weekday 1
 ![When](./Outputs/EDA_Images/freqHeatMap.png)
 
+#### f. For frequent customers, they usually place order once a week
 ![Often](./Outputs/EDA_Images/freqBetweenOrders.png)
 
 ### 3. Customer Clustering
