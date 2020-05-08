@@ -20,7 +20,7 @@ Data were imported into PostgreSQL. Database structure is shown in the diagram b
 
 ## 2. Exploratory Data Analysis
 The dataset has over 49,000 products classified into 134 `aisles` and 21 `departments`. 
-Theere were 206,200 unique user buying more than 33.8 million items in 3.4 million orders. See the full EDA notebook [here](https://github.com/arthurcw/NWDS_Instacart/blob/master/ExploratoryDataAnalysis/DataVisual.ipynb)
+Theere were 206,200 unique user buying more than 33.8 million items in 3.4 million orders. See the full EDA notebook [here](./ExploratoryDataAnalysis/DataVisual.ipynb)
 
 #### a. Customers usually bought 5 - 8 products per order
 ![Products](./Outputs/EDA_Images/productsPerOrder.png)
@@ -45,18 +45,18 @@ We attempt to divide customers into groups based on their purchase history. The 
 
 #### a. Data Preprocessing
 ##### i. Order History for Each Customer
-Data were aggregated by creating a purchase summary matrix for each customer. Rows represent each individual customer (`user_id`), columns represent product categories, and the resulting matrix is total number of products in each category. We have decided to aggregate purchases by both `department` and `aisle`, and an additional `organic` product category that was not classified in the original dataset. See the full data pareparation notebok [here](https://github.com/arthurcw/NWDS_Instacart/blob/master/CustomerSegmentation/0_DataPrep.ipynb)
-Image
+Data were aggregated by creating a purchase summary matrix for each customer. Rows represent each individual customer (`user_id`), columns represent product categories, and the resulting matrix is total number of products in each category. We have decided to aggregate purchases by both `department` and `aisle`, and an additional `organic` product category that was not classified in the original dataset. See the full data pareparation notebok [here](./CustomerSegmentation/0_DataPrep.ipynb)
+![OrderHistory](./Output/Data_Prep_Images/OrderHistory.png)
 
 ##### ii. Training Size: 20,000 were randomly selected from 90,000+ customers with over 100 products purchased
 
 ##### iii. Principal Component Analysis
-With 157 product categories and sub-categories (`department`, `aisle`, and `organic`), we applied PCA to reduce the number of dimensions to 71 that explains 95% of the variance in data. 
-![PCA](https://github.com/arthurcw/NWDS_Instacart/blob/master/Outputs/PCA_variance.png)
+With 157 product categories and sub-categories (`department`, `aisle`, and `organic`), PCA reduced the number of dimensions to 71 while explaining 95% of the variance in data. 
+![PCA](./Output/PCA_variance.png)
 
 #### b. Clustering Methods
 Three clustering methods were tested:
-1. K-Means Clustering [notebook](https://github.com/arthurcw/NWDS_Instacart/blob/master/CustomerSegmentation/2_kmeans.ipynb)
+1. K-Means Clustering [notebook](./CustomerSegmentation/2_kmeans.ipynb)
 2. DBSCAN
 3. Hierarchical Clustering
 
@@ -75,9 +75,9 @@ We tested with 2 to 20 clusters. Performance metrics such as inertia, Silhouette
 | 3 | The Drinkers | Mostly uses Instacart to buy beer and wine                                                 |
 | 4 | The Packers  | Buys mostly packaged produce                                                               |
 
-![KmeansCluster](https://github.com/arthurcw/NWDS_Instacart/blob/master/Outputs/Kmeans_Images/Kmeans_customer_group5.png)
+![KmeansCluster](./Outputs/Kmeans_Images/Kmeans_customer_group5.png)
 
-## 4. Recommendation System
+## 4. Product Recommender
 
 
 
