@@ -59,7 +59,7 @@ Three clustering methods were tested:
 ##### 1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
   - Iterated with 2 to 20 clusters
   - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
-  - We studided each cluster for what they buy, and decided to pick 5 clusters.
+  - We studided each cluster for any unique purchase pattern, and decided to pick 5 clusters.
 
 ##### 2. DBSCAN [(link to notebook)](./CustomerSegmentation/3_DBSCAN.ipynb)
   - Key tuning parameters are `clustering radius` and `minimum sample size`. Data points not meeting the two thresholds are considered as outliers
