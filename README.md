@@ -75,11 +75,11 @@ Three clustering methods were tested:
   
 ![dbscan](https://upload.wikimedia.org/wikipedia/commons/a/af/DBSCAN-Illustration.svg)
   - Iterated the two parameters to get 5 clusters with as little outliers/noises (<1%) as possible 
-  - Most clusters only got a few people
+  - DBSCAN seems to pick out the niche groups. These clusters have very few people.
 
 | # | Name              | Description                                                        |
 |:-:| ----------------- | ------------------------------------------------------------------ |
-| -1| Outlier           | 1,323 customers in this group, seems to buy a bit of everything    |
+| -1| Outlier           | 82 customers in this group, seems to buy a bit of everything       |
 | 0 | The Majority      | Most customers in this group, buying mostly fresh fruits and veges.|
 | 1 | College Folks     | Bought a lot of frozen meals and energy bars                       | 
 | 2 | Cat Owner Group 1 | Half of their purchase are in cat food care, followed by beverages |
