@@ -65,7 +65,7 @@ Three clustering methods were tested:
   - Key tuning parameters are `clustering radius` and `minimum sample size`. Data points not meeting the two thresholds are considered as outliers
   
 ![dbscan](https://upload.wikimedia.org/wikipedia/commons/a/af/DBSCAN-Illustration.svg)
-  - Iterated the two parameters to get 5 clusters
+  - Iterated the two parameters to get 5 clusters with as little outliers/noises (<1%) as possible 
   - Most clusters only got a few people
   
 ##### 3. Hierarchical Clustering
