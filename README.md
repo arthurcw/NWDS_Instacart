@@ -56,14 +56,24 @@ With 157 product categories and sub-categories (`department`, `aisle`, and `orga
 
 #### b. Clustering Methods
 Three clustering methods were tested:
-1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
-2. DBSCAN
-3. Hierarchical Clustering
+##### 1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
+  - Iterated with 2 to 20 clusters
+  - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
+  - We studided each cluster for what they buy, and decided to pick 5 clusters.
 
-We tested with 2 to 20 clusters. Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were used to help select the number of clusters. 
+##### 2. DBSCAN [(link to notebook)](./CustomerSegmentation/3_DBSCAN.ipynb)
+  - Key tuning parameters are `clustering radius` and `minimum sample size`. Data points not meeting the two thresholds are considered as outliers
+  
+![dbscan](https://upload.wikimedia.org/wikipedia/commons/a/af/DBSCAN-Illustration.svg)
+  - Iterated the two parameters to get 5 clusters
+  - Most clusters only got a few people
+  
+##### 3. Hierarchical Clustering
+
+
 
 #### c. Results
-- DBSCAN performed the worst, generating some clusters with very few customers.
+- DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
 - K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
 - We settled with 5 clusters/groups
 
