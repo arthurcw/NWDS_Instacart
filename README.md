@@ -101,7 +101,7 @@ This section explores the customer purchasing habits by what they shop in the sa
 
 `Global Recomendations` and `Association Rules` were examined. 
 
-#### a. Global Recommendations
+#### a. Global Recommendations [(link to notebook)](./Shopping Recommender/instacart recommender.ipynb)
 This approach looks at all customer orders and identifies how many times two products were purchased together. For example, how many times a customer buys conditioner and shampoo at the same time. Result is a 49,000 x 49,000 product contingency matrix that shows the frequency of a product-pair was placed in the same order. Noted that this approach is based on all user data and not customer-specific. Because this approach relies on frequency, the results skew towards pairing with popular items (e.g. bananas, which is the most popular items in the dataset)
 
 Below are examples of top 2 recommended items to buy along with bananas and organic baby spinach, respectively.
@@ -111,7 +111,7 @@ Below are examples of top 2 recommended items to buy along with bananas and orga
 | bananas | organic avocado, organic strawberries |
 | organic baby spinach | bag of organic bananas, banana |
 
-#### b. Association Rules
+#### b. Association Rules [(link to notebook)](./Shopping Recommender/association-rules-mining-market-basket-analysis.ipynb)
 Association rule also looks into how buying one product (e.g. bread) would lead to buying another product(s) (e.g. peanut butter or jelly) in the same order. The meothd evaluates possible product pairs based on the following three metrics:
 1. **support** defines the product popularity, based on the percentage of a product placed in an order
 2. **confidence*** calculates the likelihood of buying item B when item A is added to cart, based on the percentage of orders with items A and B over orders with only item A
