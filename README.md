@@ -94,13 +94,39 @@ Three clustering methods were tested:
 #### c. Results
 - DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
 - K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
-- We settled with 5 clusters/groups
-
-
+- We settled with 5 clusters/groups from K-Means
 
 ## 4. Product Recommender
+This section explores the customer purchasing habits by what they shop in the same order, and creates a product recommender. By looking at what customers of the same cluster bought, the recommender can provide a list of products that the target customer may be interested in buying.
 
+`Global Recomendations` and `Association Rules` were examined. 
 
+#### a. Global Recommendations
+This approach looks at all customer orders and identifies how many times two products were purchased together. For example, how many times a customer buys conditioner and shampoo at the same time. Result is a 49,000 x 49,000 product contingency matrix that shows the frequency of a product-pair was placed in the same order. Noted that this approach is based on all user data and not customer-specific. Because this approach relies on frequency, the results skew towards pairing with popular items (e.g. bananas, which is the most popular items in the dataset)
+
+Below are examples of top 2 recommended items to buy along with bananas and organic baby spinach, respectively.
+
+| Item | Recommended Items |
+| ---- | :---------------- |
+| bananas | organic avocado, organic strawberries |
+| organic baby spinach | bag of organic bananas, banana |
+
+#### b. Association Rules
+Association rule also looks into how buying one product (e.g. bread) would lead to buying another product(s) (e.g. peanut butter or jelly) in the same order. The meothd evaluates possible product pairs based on the following three metrics:
+1. **support** defines the product popularity, based on the percentage of a product placed in an order
+2. **confidence*** calculates the likelihood of buying item B when item A is added to cart, based on the percentage of orders with items A and B over orders with only item A
+3. **lift** represents if adding item A in the cart would increase probability of buying item B. A value larger than 1 indicates that a customer would be more likely to buy item B if item A is in the cart. A value less than 0 indicates the opposite, meaning customer will be less likely to buy item B when they are buying item A (e.g. whole milk vs. 2% milk)
+
+Below are examples of product pairs that have the highest support, confidence and lift, respectively. It appears that the high-scoring pairs are dominated by people buying different favors of the same product.
+
+| Metric | Item A | Item B |
+| ---- | :-- | :-- |
+| Support | Yotoddler Organic Pear Spinach Mango Yogurt | Organic Whole Milk Strawberry Beet Berry Yogurt Pouch |
+| Confidence | Unsweetened Blackberry Water | Unsweetened Pomegranate Essence Water |
+| Lift | 0% Greek, Blueberry on the Bottom Yogurt | Nonfat Strawberry With Fruit On The Bottom Greek Yogurt |
+| Honorable Mention | Compostable Forks | Plastic Spoons |
+
+We also did the same analysis for each of the 5 customer groups. The resulting product pairs have higher average scores, and each customer group has their unique recommended pairs. For example, if **New Parents** customer adds `100% Sheep's Milk` to cart, the system would recommend `Chocolate Chip & Oatmeal Cookies`.
 
 ## 5. Example
 
