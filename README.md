@@ -60,23 +60,7 @@ Three clustering methods were tested:
   - Iterated with 2 to 20 clusters
   - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
   - We studided each cluster for any unique purchase pattern, and decided to pick 5 clusters.
-
-##### 2. DBSCAN [(link to notebook)](./CustomerSegmentation/3_DBSCAN.ipynb)
-  - Key tuning parameters are `clustering radius` and `minimum sample size`. Data points not meeting the two thresholds are considered as outliers
   
-![dbscan](https://upload.wikimedia.org/wikipedia/commons/a/af/DBSCAN-Illustration.svg)
-  - Iterated the two parameters to get 5 clusters with as little outliers/noises (<1%) as possible 
-  - Most clusters only got a few people
-  
-##### 3. Hierarchical Clustering
-
-
-
-#### c. Results
-- DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
-- K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
-- We settled with 5 clusters/groups
-
 | # | Name         | Description                                                                                |
 |:-:| ------------ | ------------------------------------------------------------------------------------------ |
 | 0 | The Majority | Most customers in this group, buying mostly fresh fruits and veges.                        |
@@ -86,6 +70,33 @@ Three clustering methods were tested:
 | 4 | The Packers  | Buys mostly packaged produce                                                               |
 
 ![KmeansCluster](./Outputs/Kmeans_Images/Kmeans_customer_group5.png)
+##### 2. DBSCAN [(link to notebook)](./CustomerSegmentation/3_DBSCAN.ipynb)
+  - Key tuning parameters are `clustering radius` and `minimum sample size`. Data points not meeting the two thresholds are considered as outliers
+  
+![dbscan](https://upload.wikimedia.org/wikipedia/commons/a/af/DBSCAN-Illustration.svg)
+  - Iterated the two parameters to get 5 clusters with as little outliers/noises (<1%) as possible 
+  - Most clusters only got a few people
+
+| # | Name              | Description                                                        |
+|:-:| ----------------- | ------------------------------------------------------------------ |
+| -1| Outlier           | 1,323 customers in this group, seems to buy a bit of everything    |
+| 0 | The Majority      | Most customers in this group, buying mostly fresh fruits and veges.|
+| 1 | College Folks     | Bought a lot of frozen meals and energy bars                       | 
+| 2 | Cat Owner Group 1 | Half of their purchase are in cat food care, followed by beverages |
+| 3 | Organi-tarian     | Bought mostly organic produce                                      |
+| 4 | Cat Owner Group 2 | Half of their purchase are in cat food care, followed by dairy eggs|
+
+![dbscan](./Outputs/DBSCAN_Images/dbscan_72_2.png)
+##### 3. Hierarchical Clustering
+
+
+
+#### c. Results
+- DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
+- K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
+- We settled with 5 clusters/groups
+
+
 
 ## 4. Product Recommender
 
