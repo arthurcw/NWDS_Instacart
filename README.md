@@ -56,7 +56,7 @@ With 157 product categories and sub-categories (`department`, `aisle`, and `orga
 
 #### b. Clustering Methods
 Three clustering methods were tested:
-1. K-Means Clustering [notebook](./CustomerSegmentation/2_kmeans.ipynb)
+1. K-Means Clustering [link to notebook](./CustomerSegmentation/2_kmeans.ipynb)
 2. DBSCAN
 3. Hierarchical Clustering
 
