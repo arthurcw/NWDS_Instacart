@@ -129,4 +129,12 @@ Below are examples of product pairs that have the highest support, confidence an
 We also did the same analysis for each of the 5 customer groups. The resulting product pairs have higher average scores, and each customer group has their unique recommended pairs. For example, if **New Parents** customer adds `100% Sheep's Milk` to cart, the system would recommend `Chocolate Chip & Oatmeal Cookies`.
 
 ## 5. Example
+`user_id` = 1
+- belongs to `The Majority` customer group
+- Top 3 recommended products after adding `organial beef jerky` to cart
 
+| # | Item |
+| -- | :- |
+| 1 | Soda |
+| 2 | Bag of Organic Bananas |
+| 3 | Trail Mix |
