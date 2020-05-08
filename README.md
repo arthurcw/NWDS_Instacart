@@ -46,13 +46,13 @@ We attempt to divide customers into groups based on their purchase history. The 
 #### a. Data Preprocessing
 ##### i. Order History for Each Customer
 Data were aggregated by creating a purchase summary matrix for each customer. Rows represent each individual customer (`user_id`), columns represent product categories, and the resulting matrix is total number of products in each category. We have decided to aggregate purchases by both `department` and `aisle`, and an additional `organic` product category that was not classified in the original dataset. See the full data pareparation notebok [here](./CustomerSegmentation/0_DataPrep.ipynb)
-![OrderHistory](./Output/Data_Prep_Images/OrderHistory.png)
+![OrderHistory](./Outputs/Data_Prep_Images/OrderHistory.png)
 
 ##### ii. Training Size: 20,000 were randomly selected from 90,000+ customers with over 100 products purchased
 
 ##### iii. Principal Component Analysis
 With 157 product categories and sub-categories (`department`, `aisle`, and `organic`), PCA reduced the number of dimensions to 71 while explaining 95% of the variance in data. 
-![PCA](./Output/PCA_variance.png)
+![PCA](./Outputs/PCA_variance.png)
 
 #### b. Clustering Methods
 Three clustering methods were tested:
