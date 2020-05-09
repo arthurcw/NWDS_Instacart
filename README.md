@@ -41,6 +41,8 @@ Theere were 206,200 unique users buying more than 33.8 million items in 3.4 mill
 ![Often](./Outputs/EDA_Images/freqBetweenOrders.png)
 
 ## 3. Customer Segmentation
+![cs](https://www.callcentrehelper.com/images/stories/2007/05/pie-segment-760.jpg)
+
 We attempt to divide customers into groups based on their purchase history. The groups are then fed into the recommender system to tailor product recommendation for each target group. Because there is no pre-assigned group, we deploy unsupervised learning methods such as `K-means`, `DBSCAN` and `hierarichal clustering` to find underlying pattern and classify customers into groups.
 
 #### a. Data Preprocessing
@@ -55,7 +57,7 @@ With 157 product categories and sub-categories (`department`, `aisle`, and `orga
 ![PCA](./Outputs/PCA_variance.png)
 
 #### b. Clustering Methods
-Three clustering methods were tested:
+Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clustering`
 ##### 1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
   - Iterated with 2 to 20 clusters
   - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
