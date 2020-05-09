@@ -122,7 +122,7 @@ Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clust
 
 This section explores the customer purchasing habits by what they shop in the same order, and creates a product recommender. By looking at what customers of the same cluster bought, the recommender can provide a list of products that the target customer may be interested in buying.
 
-`Global Recomendations` and `Association Rules` were examined. 
+`Global Recommendations` and `Association Rules` were examined. 
 
 #### a. Global Recommendations [(link to notebook)](./Shopping%20Recommender/instacart%20recommender.ipynb)
 This approach looks at all customer orders and identifies how many times two products were purchased together. For example, how many times a customer buys conditioner and shampoo at the same time. Result is a 49,000 x 49,000 product contingency matrix that shows the frequency of a product-pair was placed in the same order. Noted that this approach is based on all user data and not customer-specific. Because this approach relies on frequency, the results skew towards pairing with popular items (e.g. bananas, which is the most popular items in the dataset)
