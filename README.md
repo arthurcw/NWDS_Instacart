@@ -89,13 +89,27 @@ Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clust
 | 4 | Cat Owner Group 2 | Half of their purchase are in cat food care, followed by dairy eggs|
 
 ![dbscan](./Outputs/DBSCAN_Images/dbscan_72_2.png)
-##### 3. Hierarchical Clustering [(link to notebook)](./CustomerSegmentation/4_Hierarchical Clustering.ipynb)
+##### 3. Hierarchical Clustering [(link to notebook)](./CustomerSegmentation/4_Hierarchical%20Clustering.ipynb)
 - In this case, we will use `Agglomerative Clustering` type within this clustering technique. In order to have a overview of the dataset, we are using dendrogram to viualize it
 
 ![dendro](./Outputs/Hierarchical_Images/dendrogram.png)
 
 - To compare with K-mean, we will set cluster number as 5
 - There are four popular methods under Agglomerative Clustering type. Each slightly different in rules in regards of how to cluster the datapoints. We tried each method and found `Ward` method provide the best clustering result
+- Similar results as K-means 
+  * one group with the majority of customers and another group buying mostly packaged produce
+  * 3 intead of 2 groups buying baby food formula
+  * the Drinkers group is gone
+  
+| Custome Group # | Top 5 Product Categories |
+|:-:| -- |
+| 0 | produce, dairy eggs, snacks, beverages, frozen |
+| 1 | produce, `babies`, dairy eggs, snacks, beverages |
+| 2 | produce, dairy eggs, snacks, frozen, `babies` |
+| 3 | produce, dairy eggs, `babies`, snacks, frozen |
+| 4 | `packaged produce`, dairy eggs, snacks, beverages, frozen |
+
+![hc](./Outputs/Hierarchical_Images/Hierarchical_customer_group5.png)
 
 #### c. Results
 - DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
