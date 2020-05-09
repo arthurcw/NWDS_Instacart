@@ -43,7 +43,7 @@ Theere were 206,200 unique users buying more than 33.8 million items in 3.4 mill
 ## 3. Customer Segmentation
 ![cs](https://www.callcentrehelper.com/images/stories/2007/05/pie-segment-760.jpg)
 
-We attempt to divide customers into groups based on their purchase history. The groups are then fed into the recommender system to tailor product recommendation for each target group. Because there is no pre-assigned group, we deploy unsupervised learning methods such as `K-means`, `DBSCAN` and `hierarichal clustering` to find underlying pattern and classify customers into groups.
+We attempt to divide customers into groups based on their purchase history. The groups are then fed into the recommender system to tailor product recommendation for each target group. Because there is no pre-assigned group, we deploy unsupervised learning methods such as `K-means`, `DBSCAN` and `hierarchical clustering` to find underlying pattern and classify customers into groups.
 
 #### a. Data Preprocessing
 ##### i. Order History for Each Customer
@@ -57,7 +57,7 @@ With 157 product categories and sub-categories (`department`, `aisle`, and `orga
 ![PCA](./Outputs/PCA_variance.png)
 
 #### b. Clustering Methods
-Three clustering methods were tested: `K-Means`, `DBSCAN` and `Hierarichal Clustering`
+Three clustering methods were tested: `K-Means`, `DBSCAN` and `Hierarchical Clustering`
 ##### 1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
   - Iterated with 2 to 20 clusters
   - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
@@ -114,7 +114,7 @@ Three clustering methods were tested: `K-Means`, `DBSCAN` and `Hierarichal Clust
 #### c. Results
 - DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
 - K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
-- For a better comparison, we made the cluster number equals to 5 for both DBSCAN and Hierachical clustering method. However, these method could probably provide a better/different clustering results which might be more suitable for this dataset
+- For a better comparison, we made the cluster number equals to 5 for both DBSCAN and Hierarchical clustering method. However, these method could probably provide a better/different clustering results which might be more suitable for this dataset
 - We settled with 5 clusters/groups from K-Means
 
 ## 4. Product Recommender / Market Basket Analysis
