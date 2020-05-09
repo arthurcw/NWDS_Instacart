@@ -91,6 +91,9 @@ Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clust
 ![dbscan](./Outputs/DBSCAN_Images/dbscan_72_2.png)
 ##### 3. Hierarchical Clustering
 - In this case, we will use `Agglomerative Clustering` type within this clustering technique. In order to have a overview of the dataset, we are using dendrogram to viualize it
+
+![dendro](./Outputs/Hierarchical_Images/dendrogram.png)
+
 - To compare with K-mean, we will set cluster number as 5
 - There are four popular methods under Agglomerative Clustering type. Each slightly different in rules in regards of how to cluster the datapoints. We tried each method and found 'Ward' method provide the best clustering result
 
@@ -121,7 +124,7 @@ Below are examples of top 2 recommended items to buy along with bananas and orga
 Association rule also looks into how buying one product (e.g. bread) would lead to buying another product(s) (e.g. peanut butter or jelly) in the same order. The meothd evaluates possible product pairs based on the following three metrics:
 1. **support** defines the product popularity, based on the percentage of a product placed in an order
 2. **confidence*** calculates the likelihood of buying item B when item A is added to cart, based on the percentage of orders with items A and B over orders with only item A
-3. **lift** represents if adding item A in the cart would increase probability of buying item B. A value larger than 1 indicates that a customer would be more likely to buy item B if item A is in the cart. A value less than 0 indicates the opposite, meaning customer will be less likely to buy item B when they are buying item A (e.g. whole milk vs. 2% milk)
+3. **lift** represents if adding item A in the cart would increase probability of buying item B. A value larger than 1 indicates that a customer would be more likely to buy item B if item A is in the cart. A value less than 1 indicates the opposite, meaning customer will be less likely to buy item B when they are buying item A (e.g. whole milk vs. 2% milk)
 
 Below are examples of product pairs that have the highest support, confidence and lift, respectively. It appears that the high-scoring pairs are dominated by people buying different favors of the same product.
 
