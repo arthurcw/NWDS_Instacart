@@ -90,12 +90,14 @@ Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clust
 
 ![dbscan](./Outputs/DBSCAN_Images/dbscan_72_2.png)
 ##### 3. Hierarchical Clustering
-
-
+- In this case, we will use `Agglomerative Clustering` type within this clustering technique. In order to have a overview of the dataset, we are using dendrogram to viualize it
+- To compare with K-mean, we will set cluster number as 5
+- There are four popular methods under Agglomerative Clustering type. Each slightly different in rules in regards of how to cluster the datapoints. We tried each method and found 'Ward' method provide the best clustering result
 
 #### c. Results
 - DBSCAN performed the worst, generating some clusters with very few customers. Because of its nature, it also leaves a bunch of customers as outliers and not being grouped.
 - K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
+- For a better comparison, we made the cluster number equals to 5 for both DBSCAN and Hierachical clustering method. However, these method could probably provide a better/different clustering results which might be more suitable for this dataset
 - We settled with 5 clusters/groups from K-Means
 
 ## 4. Product Recommender / Market Basket Analysis
