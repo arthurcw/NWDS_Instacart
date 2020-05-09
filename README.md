@@ -57,7 +57,7 @@ With 157 product categories and sub-categories (`department`, `aisle`, and `orga
 ![PCA](./Outputs/PCA_variance.png)
 
 #### b. Clustering Methods
-Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clustering`
+Three clustering methods were tested: `K-Means`, `DBSCAN` and `Hierarichal Clustering`
 ##### 1. K-Means Clustering [(link to notebook)](./CustomerSegmentation/2_kmeans.ipynb)
   - Iterated with 2 to 20 clusters
   - Performance metrics such as inertia, Silhouette coefficient and Calinski-Harabasz score were calculated to help select the number of clusters. We decided the number is between 3 to 5.
