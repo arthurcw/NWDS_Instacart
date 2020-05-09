@@ -2,7 +2,7 @@
 ### Team: Arthur Chan, Lei Gu, Cindy Wagner and Jun Yang (May 2020)
 
 ### Description
-This is an exercise to apply different machine-learning algorithms to customer segmentation and market basket analysis to understand customer consumption behavior and predict what customer would buy next.
+This is an exercise to apply different machine-learning algorithms to **customer segmentation** and **market basket analysis** to understand customer consumption behavior and predict what customer would buy next.
 
 ## 0. The Instacart dataset
 Instacart operates a grocery delivery and pick-up service in the US and Canada. The company released an anonymized dataset in 2017 with over 3.4 million orders from 206,000+ Instacart users. Data were downloaded in May 2020 from [Instacart](https://www.instacart.com/datasets/grocery-shopping-2017).
