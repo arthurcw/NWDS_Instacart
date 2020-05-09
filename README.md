@@ -168,4 +168,5 @@ In this project, we tested machine-learning algorithms on two important topics i
 - **market basket analysis**: we looked at how products are bought in the same order and used association rule to discover relations among products and build product recommender.
 
 
-
+##### Major Libaries Used
+- Sklearn, SQLAlchemy, Seaborn, Plotly, Matplotlib
