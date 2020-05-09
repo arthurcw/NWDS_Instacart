@@ -101,7 +101,7 @@ Three clustering methods were tested: `K-Means`, `DBSCAN` and `Hierarchical Clus
   * 3 intead of 2 groups buying baby food formula
   * the Drinkers group is gone
   
-| Custome Group # | Top 5 Product Categories |
+| Customer Group # | Top 5 Product Categories |
 |:-:| -- |
 | 0 | produce, dairy eggs, snacks, beverages, frozen |
 | 1 | produce, `babies`, dairy eggs, snacks, beverages |
