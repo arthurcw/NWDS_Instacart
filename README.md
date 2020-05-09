@@ -52,7 +52,7 @@ Data were aggregated by creating a purchase summary matrix for each customer. Ro
 
 ##### ii. Training Size: 20,000 were randomly selected from 90,000+ customers with over 100 products purchased
 
-##### iii. Principal Component Analysis
+##### iii. Principal Component Analysis [(link to notebook)](./CustomerSegmentation/1_PCA.ipynb)
 With 157 product categories and sub-categories (`department`, `aisle`, and `organic`), PCA reduced the number of dimensions to 71 while explaining 95% of the variance in data. 
 ![PCA](./Outputs/PCA_variance.png)
 
@@ -89,7 +89,7 @@ Three clustering methods were tested: `K-Means', `DBSCAN` and `Hierarichal Clust
 | 4 | Cat Owner Group 2 | Half of their purchase are in cat food care, followed by dairy eggs|
 
 ![dbscan](./Outputs/DBSCAN_Images/dbscan_72_2.png)
-##### 3. Hierarchical Clustering
+##### 3. Hierarchical Clustering [(link to notebook)](./CustomerSegmentation/4_Hierarchical Clustering.ipynb)
 - In this case, we will use `Agglomerative Clustering` type within this clustering technique. In order to have a overview of the dataset, we are using dendrogram to viualize it
 
 ![dendro](./Outputs/Hierarchical_Images/dendrogram.png)
