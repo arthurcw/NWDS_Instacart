@@ -137,7 +137,7 @@ Below are examples of top 2 recommended items to buy along with bananas and orga
 #### b. Association Rules [(link to notebook)](./Shopping%20Recommender/association-rules-mining-market-basket-analysis.ipynb)
 Association rule also looks into how buying one product (e.g. bread) would lead to buying another product(s) (e.g. peanut butter or jelly) in the same order. The meothd evaluates possible product pairs based on the following three metrics:
 1. **support** defines the product popularity, based on the percentage of a product placed in an order
-2. **confidence*** calculates the likelihood of buying item B when item A is added to cart, based on the percentage of orders with items A and B over orders with only item A
+2. **confidence** calculates the likelihood of buying item B when item A is added to cart, based on the percentage of orders with items A and B over orders with only item A
 3. **lift** represents if adding item A in the cart would increase probability of buying item B. A value larger than 1 indicates that a customer would be more likely to buy item B if item A is in the cart. A value less than 1 indicates the opposite, meaning customer will be less likely to buy item B when they are buying item A (e.g. whole milk vs. 2% milk)
 
 Below are examples of product pairs that have the highest support, confidence and lift, respectively. It appears that the high-scoring pairs are dominated by people buying different favors of the same product.
