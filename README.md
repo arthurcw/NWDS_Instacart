@@ -96,7 +96,9 @@ Three clustering methods were tested:
 - K-Means and Hierarchical Clustering performed similarly. We were able to identify specific purchase pattern for each customer group
 - We settled with 5 clusters/groups from K-Means
 
-## 4. Product Recommender
+## 4. Product Recommender / Market Basket Analysis
+![mba](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/117717078/original/7cd5947def9d84483612ef9b19829323850ac9af/bulid-a-product-recommender-system-for-ur-site.jpg)
+
 This section explores the customer purchasing habits by what they shop in the same order, and creates a product recommender. By looking at what customers of the same cluster bought, the recommender can provide a list of products that the target customer may be interested in buying.
 
 `Global Recomendations` and `Association Rules` were examined. 
@@ -131,10 +133,18 @@ We also did the same analysis for each of the 5 customer groups. The resulting p
 ## 5. Example
 `user_id` = 1
 - belongs to `The Majority` customer group
-- Top 3 recommended products after adding `organial beef jerky` to cart
+- Top 3 recommended products after adding `Soda` to cart
 
 | # | Item |
 | -- | :- |
-| 1 | Soda |
-| 2 | Bag of Organic Bananas |
-| 3 | Trail Mix |
+| 1 | Zero Calories Cola |
+| 2 | Clementines |
+| 3 | Bag of Organic Bananas |
+
+## 6. Conclusion
+In this project, we tested machine-learning algorithms on two important topics in retail business: **customer segmentation** and **market basket analysis**
+- **customer segmentation**: we looked at their order history and applied unsupervised machine-learning methods were used to uncover differences among customers.
+- **market basket analysis**: we looked at how products are bought in the same order and used association rule to discover relations among products and build product recommender.
+
+
+
